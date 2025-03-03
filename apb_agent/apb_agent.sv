@@ -1,3 +1,5 @@
+
+
 /*
 
 File Name : apb_agent.sv
@@ -8,7 +10,7 @@ Purpose   : It have all componets of vip like driver,monitor,sequencer .
 class apb_agent extends uvm_agent ; 
   
   //uvm factory registeration
-  uvm_object_utils(apb_agent)
+  uvm_component_utils(apb_agent)
   
   //apb_sequencer handle declaration
   apb_sequencer apb_seqr_h;
@@ -19,9 +21,10 @@ class apb_agent extends uvm_agent ;
 
 
   //Function Name : new(), default constructor : 
-  function new(string name = "apb_agent", uvm_compoent parent);
+  function new(string name = "apb_agent", uvm_compoent parent = null);
     super.new(name,parent);
   endfunction
   
   
 endclass:apb_agent 
+>>>>>>> df9ccb8325b6d7cf84164994acebb76697031f7a

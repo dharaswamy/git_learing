@@ -19,6 +19,7 @@ class apb_sequence_base extends uvm_sequence#(apb_sequence_item);
     virtual task body();
      req = apb_sequence_item::type_id::create("this");
      req.randomize()with{addr == 10;} ;
+     `uvm_info(get_type(),"Randomization is done ", UVM_NONE):
     endtask:body
 
 endclass:apb_sequence_base

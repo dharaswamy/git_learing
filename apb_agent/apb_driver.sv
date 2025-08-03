@@ -24,6 +24,10 @@ class apb_driver extends uvm_driver#(apb_sequence_item);
 // 
  function driver();
   `uvm_info("apb_driver","driver function is executed",UVM_HIGH)
+$display("1");
+$display("2");
+$display("3");
+$display("4");
  endfunction:driver
 
 endclass:apb_driver

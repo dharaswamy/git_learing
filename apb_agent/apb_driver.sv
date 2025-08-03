@@ -20,6 +20,12 @@ class apb_driver extends uvm_driver#(apb_sequence_item);
      super.new(name,parent);
    endfunction:new
 
+
+// 
+ function driver();
+
+ endfunction:driver
+
 endclass:apb_driver
 
 

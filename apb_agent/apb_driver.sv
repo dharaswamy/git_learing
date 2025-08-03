@@ -26,8 +26,8 @@ class apb_driver extends uvm_driver#(apb_sequence_item);
   `uvm_info("apb_driver","driver function is executed",UVM_HIGH)
    `uvm_info()
    `uvm_info()
-   `uvm_info()
-   `uvm_info()
+   `uvm_inf()
+   `uvm_info
  endfunction:driver
 
 endclass:apb_driver

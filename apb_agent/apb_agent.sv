@@ -23,7 +23,7 @@ class apb_agent extends uvm_agent ;
   //Function Name : new(), default constructor : 
   function new(string name = "apb_agent", uvm_compoent parent = null);
     super.new(name,parent);
-$display("=========inside class constrcture===apb_agent=============")
+$display("=========inside class constrcture===apb_agent=============");
   endfunction
   
   

@@ -15,5 +15,9 @@ class apb_sequence_item extends uvm_sequence_item ;
   function new(string name = "apb_sequence_item");
     super.new(name);
   endfunction:new 
+
   
+  task body();
+   end : body
+
 endclass:apb_sequence_item 
